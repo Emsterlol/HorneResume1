@@ -1,0 +1,76 @@
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+    background-color: #91afa9;
+    color: #333;
+}
+
+header {
+    background-image: url('ResumeAssignment/placeholder images/forest-banner.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 200px;
+    padding: 20px;
+}
+
+nav {
+    background-color: #558371;
+    overflow: hidden;
+}
+
+nav a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+nav a:hover {
+    background-color: #91afa9;
+    color: #333;
+}
+
+main {
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+}
+
+footer {
+    background-color: #558371;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+h1 {
+    font-size: 35px;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+h3 {
+    font-size: 25px;
+}
+
+p {
+    font-size: 20px;
+}
+
+.footer-info {
+    border: none;
+    background-color: white;
+    padding: 5px 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+    display: inline-block;
+    width: 40px;
+}
