@@ -1,9 +1,28 @@
+/* My chosen font from the example website:  */
+@import url(https://fonts.googleapis.com/css?family=Lobster+Two:700italic);
+
+.fifties {
+	font-family: lobster two;
+	color: white;
+	font-size: 70px;
+	text-align: center;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #558371;
+}
+
 body {
     font-family: Georgia, 'Times New Roman', Times, serif;
     margin: 0;
     padding: 0;
     background-color: #91afa9;
     color: #333;
+}
+
+main {
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
 }
 
 header {
@@ -17,6 +36,7 @@ header {
 nav {
     background-color: #558371;
     overflow: hidden;
+    font-family: lobster two;
 }
 
 nav a {
@@ -26,19 +46,12 @@ nav a {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    font-size: 20px;
+    font-size: 25px;
 }
 
 nav a:hover {
     background-color: #91afa9;
     color: #333;
-}
-
-main {
-    max-width: 900px;
-    margin: 20px auto;
-    padding: 20px;
-    background-color: #fff;
 }
 
 footer {
@@ -64,6 +77,36 @@ p {
     font-size: 20px;
 }
 
+ul {
+    font-size: 20px;
+}
+
+section {
+padding-bottom: 5px;
+}
+
+.MyselfImg {
+    width: 400px;
+    height: 400px;
+}
+
+.HikingImg {
+    width: 400px;
+    height: 400px;
+}
+
+.ImagesExamples {
+    width: 500px;
+    height: 300px;
+}
+
+.FooterText {
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #91afa9;
+    font-size: 40px;
+    font-family: lobster two;
+}
+
 .footer-info {
     border: none;
     background-color: white;
@@ -74,3 +117,22 @@ p {
     display: inline-block;
     width: 40px;
 }
+
+/* Media */
+@media screen and (min-width: 480px) {
+    main.grid-container {
+      grid-template-columns: repeat(1, 1fr);
+    }
+  }
+
+@media screen and (min-width: 768px) {
+    main.grid-container {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  
+@media screen and (min-width: 1024px) {
+    main.grid-container {
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
